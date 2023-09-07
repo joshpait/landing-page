@@ -1,0 +1,67 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    position: fixed;
+}
+
+.nav-logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 16em;
+}
+
+.team-logo {
+    width: 72px;
+    margin: 8px;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    position: relative;
+    margin-right: 2.5vw;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.mission-statement {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-2 {
+    background-color: white;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
