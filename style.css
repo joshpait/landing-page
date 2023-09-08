@@ -1,67 +1,48 @@
-* {
-    margin: 0 auto;
-}
-
 body {
-    font-family: Trebuchet MS, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
     width: 100%;
-    background-color: #1F2937;
+    background-color: #1f2937;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    text-decoration: none;
-    position: fixed;
 }
 
 .nav-logo-container {
+    margin-right: auto;
+    padding-left: 20em;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 16em;
 }
 
 .team-logo {
-    width: 72px;
-    margin: 8px;
+    width: 60px;
+    padding: 16px;
+    filter: invert();
 }
 
 .nav-links-container {
+    padding-right: 20em;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 64px;
 }
 
 .nav-links {
+    display: flex;
+    gap: 64px;
+}
+
+a:link, a:visited, a:hover, a:active {
     font-size: 18px;
-    color: #E5E7EB;
-    position: relative;
-    margin-right: 2.5vw;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
-.section-1 {
-    background-color: #1F2937;
-}
-
-.title {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
-}
-
-.mission-statement {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.section-2 {
-    background-color: white;
-}
-
-.section-3 {
-    background-color: #E5E7EB;
-}
