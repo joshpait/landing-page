@@ -10,34 +10,26 @@ body {
 .navbar {
     width: 100%;
     background-color: #1f2937;
+    padding-top: 16px;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    gap: 40em;
 }
 
 .nav-logo-container {
-    margin-right: auto;
-    padding-left: 20em;
     display: flex;
 }
 
 .team-logo {
     width: 60px;
-    padding: 16px;
     filter: invert();
-}
-
-.nav-links-container {
-    padding-right: 20em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 64px;
 }
 
 .nav-links {
     display: flex;
-    gap: 64px;
+    justify-content: space-evenly;
+    gap: 2em;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -46,3 +38,25 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+.section-1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: left;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section-1-container {
+    display: flex;
+    align-content: space-evenly;
+    gap: 3em;
+    padding: 4em 10em;
+}
+
+.team-photo {
+    width: 360px;
+}
