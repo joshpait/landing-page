@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 40em;
+    gap: 25em;
 }
 
 .nav-logo-container {
@@ -32,9 +32,10 @@ body {
     gap: 2em;
 }
 
-a:link, a:visited, a:hover, a:active {
+.nav-links a {
     font-size: 18px;
     color: #e5e7eb;
+    background-color: transparent;
     text-decoration: none;
 }
 
@@ -53,10 +54,94 @@ a:link, a:visited, a:hover, a:active {
 .section-1-container {
     display: flex;
     align-content: space-evenly;
+    align-items: center;
     gap: 3em;
-    padding: 4em 10em;
+    padding: 4em 25em;
 }
 
 .team-photo {
     width: 360px;
+}
+
+.section-2 {
+    background-color: white;
+}
+
+.information-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section-2-container {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.merch-img, .competitions-img, .classes-img {
+    height: 240px;
+    border-radius: 1.5em;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section-3-container {
+    font-style: italic;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: center;
+    gap: 1em;
+}
+
+.section-4 {
+    background-color: white;
+    color: white;
+    margin: 50px 300px;
+    padding: 10px 80px;
+}
+
+.section-4-container {
+    padding: 16px 80px;
+    background-color: #3882f6;
+    border-radius: 1em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: center;
+    gap: 5em;
+}
+
+.form-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.email-button {
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-color: white;
+    border-radius: 1em;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
 }
